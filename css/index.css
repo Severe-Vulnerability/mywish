@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+.header{
+    font-size: xxx-large;
+    padding: 10px;
+    background-color: black;
+    color: red;
+}
+.content{
+    margin: 45px 25px 25px;
+    padding: 25px;
+    background-color: red;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-container button{
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    color: red;
+    border-width: 0;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.card{
+    width: 23%;
+    height: 250px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    float: left;
+}
+.card div{
+    display: flex;
+    justify-content: flex-end;
+}
+.card div a{
+    margin-left: 10px;
+}
+.card div a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-info{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.page{
+    margin-top: 25px;
+}
+.page-change{
+    display: flex;
+    justify-content: center;
+}
+.page-change button{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: medium;
+    color: red;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+.footer p {
+    margin: 5px;
+    color: red;
+}
+.top-first{
+    float: left;
+    margin-right: 35px;
+}
+.top-second button{
+    width: 30px;
+    height: 30px;
+    border-style: none;
+}
+
